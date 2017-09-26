@@ -1,0 +1,124 @@
+image: node:7
+
+before_script:
+  - apt-get update && apt-get install -y --force-yes automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++
+
+job1:
+  script:
+    - npm install && npm test
+
+job2:
+  script:
+    - npm install && npm test
+
+job3:
+  script:
+    - npm install && npm test
+
+job4:
+  script:
+    - npm install && npm test
+
+job5:
+  script:
+    - npm install && npm test
+
+job6:
+  script:
+    - npm install && npm test
+
+job7:
+  script:
+    - npm install && npm test
+
+job8:
+  script:
+    - npm install && npm test
+
+job9:
+  script:
+    - npm install && npm test
+
+job10:
+  script:
+    - npm install && npm test
+
+job11:
+  script:
+    - npm install && npm test
+
+job12:
+  script:
+    - npm install && npm test
+
+job13:
+  script:
+    - npm install && npm test
+
+job14:
+  script:
+    - npm install && npm test
+
+job15:
+  script:
+    - npm install && npm test
+
+job16:
+  script:
+    - npm install && npm test
+
+job17:
+  script:
+    - npm install && npm test
+
+job18:
+  script:
+    - npm install && npm test
+
+job19:
+  script:
+    - npm install && npm test
+
+job20:
+  script:
+    - npm install && npm test
+
+job21:
+  script:
+    - npm install && npm test
+
+job22:
+  script:
+    - npm install && npm test
+
+job23:
+  script:
+    - npm install && npm test
+
+job24:
+  script:
+    - npm install && npm test
+
+job25:
+  script:
+    - npm install && npm test
+
+job26:
+  script:
+    - npm install && npm test
+
+job27:
+  script:
+    - npm install && npm test
+
+job28:
+  script:
+    - npm install && npm test
+
+job29:
+  script:
+    - npm install && npm test
+
+job30:
+  script:
+    - npm install && npm test
